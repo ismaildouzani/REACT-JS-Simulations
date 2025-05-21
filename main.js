@@ -17,7 +17,8 @@ const renderPosts = (posts) => {
                     <p class="text-danger">${new Date(post.created_at).toString()}</p>
                     <a href="#" class="card-link">Edit</a>
                     <a href="#" class="card-link">Delete</a>
-                </div>
+                </div> 
+                
                  </div>
         `;
     })
