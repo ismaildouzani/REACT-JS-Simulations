@@ -18,7 +18,7 @@ const renderPosts = (posts) => {
                     <a href="#" class="card-link">Edit</a>
                     <a href="#" class="card-link">Delete</a>
                 </div> 
-                
+
                  </div>
         `;
     })
