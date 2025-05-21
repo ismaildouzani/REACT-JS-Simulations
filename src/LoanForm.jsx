@@ -27,7 +27,7 @@ export default function LoanForm() {
     setErrorMessage(null);
     const { age, phoneNumber } = loanInput;
     if (age < 18 || age > 100) {
-      setErrorMessage("THE AGE IS NOT ALLOWED NOW");
+      setErrorMessage("THE AGE IS NOT ALLOWED");
       setShowModal(true);
     } else if (phoneNumber.length < 10 || phoneNumber.length > 12) {
       setErrorMessage("THE PHONE NUMBER IS NOT ALLOWED");
